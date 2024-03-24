@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head') %>
+    <title><%= title%></title>
+</head>
+<body>
+    <%- include('partials/navigation') %>
+    <center><p> Explore My</p></center>
+<center><h1 id="experience" > Skills</h1></center><br><br>
+<div class="container text-center">
+  
+
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col-md-6 pt-5">
+      <div class="card h-100 border border-dark rounded-3">
+        <div class="card-body d-flex flex-column">
+          <h2 class="experience-sub-title text-center">Frontend Development</h2>
+          <div class="article-container d-flex flex-wrap justify-content-center">
+              <div class="container">
+                  <!-- Sección 1: Detalles de Experiencia -->
+                  <div class="row">
+                    <div class="col-md-6">
+                      <!-- Tu contenido aquí -->
+                      <img src="/img/checkmark.png" alt="" width="10%"> html
+                    </div>
+                    <div class="col-md-6">
+                      <!-- Tu contenido aquí -->
+                      <img src="/img/checkmark.png" alt="" width="10%"> css
+                    </div>
+                    
+                  </div>
+                
+                  <!-- Sección 2: Detalles de Proyectos -->
+                  
+                
+                  <!-- Sección 3: Tarjetas de Proyectos -->
+                  <div class="row">
+                    <div class="col-md-4">
+                      <!-- Tu contenido aquí -->
+                    </div>
+                    <div class="col-md-4">
+                      <!-- Tu contenido aquí -->
+                    </div>
+                    <div class="col-md-4">
+                      <!-- Tu contenido aquí -->
+                    </div>
+                  </div>
+                </div>
+                
+            <!-- ... Contenido de la primera mitad de la experiencia ... -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 pt-5">
+      <div class="card h-100 border border-dark rounded-3">
+        <div class="card-body d-flex flex-column">
+          <h2 class="experience-sub-title text-center">Frontend Development</h2>
+          <div class="article-container d-flex flex-wrap justify-content-center">
+            <!-- ... Contenido de la segunda mitad de la experiencia ... -->
+            <div class="row">
+              <div class="col-md-6">
+                <!-- Tu contenido aquí -->
+                <img src="/img/checkmark.png" alt="" width="10%"> javascript
+              </div>
+              <div class="col-md-6">
+                <!-- Tu contenido aquí -->
+                <img src="/img/checkmark.png" alt="" width="10%"> php
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <%- include('partials/footer') %>
+</body>
+</html>
