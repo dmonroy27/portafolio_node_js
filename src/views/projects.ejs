@@ -3,19 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
     <%- include('partials/head') %>
     <title><%= title%></title>
 </head>
 <body>
     <%- include('partials/navigation') %>
-    <main class="container vh-100 pt-2 text-center d-flex justify-content-center align-items-center ">
-        <section>
-            <h1 class="display-1 d-flex justify-content-center ">About</h1>
-            <p class="d-flex justify-content-center ">¿Cómo describes a un ícono? Descubierto en 1807 por Lewis y Clark, las palabras no alcanzan para describir al Yellowstone National Park (Parque nacional de Yellowstone), una de las primeras creaciones de la Madre Naturaleza. Una fuerza dinámica geotérmica, oculta debajo de la superficie, formó un conjunto impactante de montañas, ríos, cañones, termas y géiseres, que están rodeados de una gran cantidad de animales, desde los más grandes mamíferos hasta pequeñas aves. Su atractivo es impresionante, lo demuestra la multitud que lo visita todos los años, pero es posible encontrar un lugar para ti en este parque magnífico si planificas bien tu viaje.
-
-            </p>
-        </section>
-    </main>
+    
+    <div class="titulo2 mx-auto text-center">
+        <h6 id="projects">Explore My Recent</h6>
+        <h1 class="fw-bolder">Projects</h1>
+      </div>
+  
+      <div class="container mb-5 pt-5">
+        <div class="row row-cols-3">
+  
+          <div class="col-md-4 col-sm-4 d-flex justify-content-end d-grid gap-2 col-6 mx-auto col-10" id="tarjeticapro">
+            <div class="tarjetapro card rounded-4">
+              <div class="ms-4 me-4 mt-3"><img src="img/image01.png"  class="card-img-top rounded-4" alt="coming soon" ></div>
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">Web Portfolio</h5>
+                <div class="text-center">
+                  <a href="https://github.com/dmonroy27/portafolio-DuvanMonroy" target="_blank" class="btn btn-light rounded-5" style="width: 120px; border-color: #a7a7a7;">GitHub</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 col-sm-4 d-flex justify-content-center d-grid gap-2 col-4 mx-auto col-10" id="tarjeticapro">
+            <div class="tarjetapro card rounded-4">
+              <div class="ms-4 me-4 mt-3"><img src="img/image02.png" class="card-img-top rounded-4" style="height: 180px;" alt="coming soon"></div>
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">Laravel </h5>
+                <div class="text-center">
+                  <a href="#" class="btn btn-light disabled rounded-5" style="width: 120px; border-color: #a7a7a7;">GitHub</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 col-sm-4 d-flex justify-content-start d-grid gap-2 col-4 mx-auto col-10" id="tarjeticapro">
+            <div class="tarjetapro card rounded-4">
+              <div class="ms-4 me-4 mt-3"><img src="img/nodejs.png" class="card-img-top rounded-4" style="height: 180px;" alt="coming soon"></div>
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">Node js </h5>
+                <div class="text-center">
+                  <a href="#" class="btn btn-light disabled rounded-5" style="width: 120px; border-color: #a7a7a7;">GitHub</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
     <%- include('partials/footer') %>
 </body>
 </html>
