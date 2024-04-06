@@ -7,15 +7,44 @@
     <title><%= title%></title>
 </head>
 <body>
-    <%- include('partials/navigation') %>
-    <main class="container vh-100 pt-2 text-center d-flex justify-content-center align-items-center ">
-        <section>
-            <h1 class="display-1 d-flex justify-content-center ">About</h1>
-            <p class="d-flex justify-content-center ">¿Cómo describes a un ícono? Descubierto en 1807 por Lewis y Clark, las palabras no alcanzan para describir al Yellowstone National Park (Parque nacional de Yellowstone), una de las primeras creaciones de la Madre Naturaleza. Una fuerza dinámica geotérmica, oculta debajo de la superficie, formó un conjunto impactante de montañas, ríos, cañones, termas y géiseres, que están rodeados de una gran cantidad de animales, desde los más grandes mamíferos hasta pequeñas aves. Su atractivo es impresionante, lo demuestra la multitud que lo visita todos los años, pero es posible encontrar un lugar para ti en este parque magnífico si planificas bien tu viaje.
 
-            </p>
-        </section>
-    </main>
+    <%- include('partials/navigation') %>
+    <center><h1 class="pt-5 ">About Me</h1></center><br><br><br><br>
+    <div class="container text-center">
+      <div class="row row-cols-2">
+        <div class="col-md-8 col-sm-12 col-lg-6">
+        <img src="img/about.jpg" class="img-thumbnail" alt="" width="1000px" >
+        </div>
+    
+        <div class="col-md-4 col-sm-12 col-lg-6">
+        <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Experience</h5>
+            <p class="card-text">1+ years frontend development.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-sm-12 col-lg-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <p class="card-text">Software Development .</p>
+            
+          </div>
+        </div>
+      </div>
+    </div><br><br><br><br><br>
+    <p class="descripcion" style="text-align: justify;">Duvan, un estudiante de desarrollo web, me preparo diariamente en el fascinante mundo de la creación digital. Entre líneas de código y diseños responsivos, encuentra su pasión. Su jornada consiste en explorar nuevas tecnologías, desde frameworks populares hasta las últimas tendencias en diseño UX/UI. Participa activamente en proyectos colaborativos, donde no solo perfecciona sus habilidades técnicas, sino también su capacidad para trabajar en equipo. Para mi, cada desafío de desarrollo es una oportunidad para aprender y mejorar. Su carácter curioso y su dedicación la convierten en una estudiante prometedora en el campo del desarrollo web.</p>
+        </div>
+        
+        
+      </div>
+      
+    </div>
+
     <%- include('partials/footer') %>
 </body>
 </html>
